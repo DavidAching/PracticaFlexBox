@@ -1,0 +1,295 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #fff;
+}
+
+
+/* CABECERA */
+
+.cabecera {
+    margin-top: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i,
+p {
+
+    font-size: 30px;
+
+}
+
+.logo p {
+    margin: 0px 0px 0px 15px;
+    font-family: sans-serif;
+}
+
+
+.nav-side {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    margin: 0px 70px 0px 0px;
+}
+
+.link {
+    margin: 0px 0px 0px 40px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.boton {
+    width: 230px;
+    height: 60px;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+
+}
+
+.boton:hover {
+    background: #242121;
+    color: #fff;
+}
+
+
+
+/* CUERPO */
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 70px 70px 70px;
+}
+
+.informacion {
+    width: 500px;
+}
+
+.titulo {
+    width: 600px;
+    font-size: 60px;
+    font-family: monospace;
+    margin: 0px 0px 30px 0px;
+}
+
+.descripcion {
+    font-family: monospace;
+    font-size: 16px;
+    margin: 0px 0px 30px 0px;
+}
+
+
+.botonn{
+    padding: 0px 5px 0px 5px;
+    width: 230px;
+    height: 60px;
+    font-family: monospace;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: black;
+    color: #fff;
+}
+
+.botonn:hover {
+    border: 1px solid black;
+    background: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+.imagenref img {
+    width: 450px;
+    margin: 0px 40px 0px 0px;
+}
+
+
+/* MARCAS */
+
+.marcas {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 20px 0px;
+}
+
+.marcas img {
+    height: 35px;
+
+}
+
+
+/* SERVICIOS */
+
+
+.servicios {
+    margin: 80px 70px 40px 70px;
+    display: flex;
+    align-items: center;
+}
+
+.botonnn {
+    width: 200px;
+    height: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 10px;
+    border: 1px solid #cc1f0c;
+    background: #cc1f0c;
+    color: #fff;
+    margin: 0px 45px 0px 0px;
+}
+
+.servicio-info{
+    width: 650px;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+/* CAJAS CAJA1*/
+.cajas {
+    margin: 50px 70px 70px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.caja {
+    margin: 50px 0px 0px 0px;
+    width: 580px;
+    height: 290px;
+    border: 2px solid rgb(32, 30, 30);
+    display: flex;
+    box-shadow: 0px 10px 2px 0px rgb(32, 30, 30);
+    flex-direction: row;
+    border-radius: 50px;
+}
+
+.caja .titulo-caja p {
+    color: #fff;
+    font-family: monospace;
+}
+
+.caja .p1 {
+    padding: 5px 5px 5px 5px;
+    background-color: #cc1f0c;
+    border-radius: 5px;
+}
+
+.caja .p2 {
+    padding: 5px 5px 5px 5px;
+    width: fit-content;
+    background-color: #cc1f0c;
+    border-radius: 5px;
+}
+
+.caja .anclaje a{
+    margin: 0px 0px 0px 20px;
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+/* CAJAS CAJA2*/
+
+.caja2 {
+    margin: 50px 0px 0px 0px;
+    width: 580px;
+    height: 290px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+}
+
+.caja2 .titulo-caja p {
+    color: black;
+    font-family: monospace;
+}
+
+.caja2 .p1 {
+    padding: 5px 5px 5px 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.caja2 .p2 {
+    padding: 5px 5px 5px 5px;
+    width: fit-content;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.caja2 .anclaje a{
+    margin: 0px 0px 0px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.caja2 .anclaje i{
+    color: #fff;
+}
+
+
+
+/* AJUSTE CAJA */
+
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 0px 50px;
+}
+
+.titulo-caja {
+    margin: 0px 0px 80px 0px;
+}
+
+
+.anclaje{
+    display: flex;
+    align-items: center;
+}
+
+.anclaje i{
+    font-size: 35px;
+}
+
+
+.left {
+    display: flex;
+}
+.left img {
+    width: 230px;
+    align-self: center;
+}
